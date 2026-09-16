@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CIATox-MT — Rede Estadual de Toxicologia | SES-MT</title>
+  <meta name="description" content="Apresentação executiva da Rede Estadual de Informação, Assistência Toxicológica e Toxicovigilância de Mato Grosso. Secretaria de Estado de Saúde · CIEVS-MT.">
+  <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+  <a class="sr-only" href="#deck">Ir para a apresentação</a>
+  <div class="app">
+    <div class="barra-gov">
+      <div class="identidade">
+        <span class="mt-selo" aria-hidden="true">MT</span>
+        <span>Governo de Mato Grosso</span>
+        <span aria-hidden="true">|</span>
+        <strong>Secretaria de Estado de Saúde</strong>
+        <span aria-hidden="true">|</span>
+        <span>CIEVS-MT</span>
+      </div>
+      <div class="acessibilidade" aria-label="Recursos de acessibilidade">
+        <button type="button" id="fonte-menos" aria-label="Diminuir texto">A−</button>
+        <button type="button" id="fonte-mais" aria-label="Aumentar texto">A+</button>
+        <button type="button" id="contraste" aria-pressed="false">Alto contraste</button>
+      </div>
+    </div>
+
+    <header class="cabecalho">
+      <div class="marca">
+        <img class="ses" src="assets/governo-ses-mt.png" alt="Secretaria de Estado de Saúde. Governo de Mato Grosso" width="220" height="63">
+        <img class="cievs" src="assets/logo-cievs-mt.png" alt="CIEVS-MT — Centro de Informações Estratégicas de Vigilância em Saúde" width="160" height="40">
+        <div class="titulo-projeto">
+          <strong>CIATox-MT</strong>
+          <small>Apresentação executiva · minuta para apreciação superior</small>
+        </div>
+      </div>
+      <div class="acoes-topo">
+        <a class="botao secundario" href="nota-tecnica.html">Nota ao Secretário</a>
+        <a class="botao secundario" href="documento.html">Projeto</a>
+        <button class="botao secundario" type="button" id="tela-cheia">Tela cheia</button>
+        <button class="botao laranja" type="button" onclick="window.print()">Imprimir / PDF</button>
+      </div>
+    </header>
+
+    <div class="aviso">
+      Minuta institucional. Simulação orçamentária preliminar, condicionada à habilitação federal, aos critérios do Ministério da Saúde e à disponibilidade orçamentária. Fonte normativa: Portaria GM/MS nº 12.151, de 14 de setembro de 2026. Dados populacionais: IBGE, estimativa 2025.
+    </div>
+
+    <main class="deck" id="deck">
+      <section class="slide capa ativa" id="s1" aria-label="Capa">
+        <div class="slide-interno">
+          <p class="kicker">Toxicologia · Vigilância · Resposta</p>
+          <h1>Rede Estadual de Informação, Assistência Toxicológica e Toxicovigilância</h1>
+          <p class="lead">Estruturação da cobertura estadual de toxicologia clínica e adequação à Portaria GM/MS nº 12.151/2026. Não se propõe, nesta etapa, criar um segundo CIATox: o Estado já possui serviço reconhecido. A decisão é como assegurar os 142 municípios.</p>
+          <div class="selos">
+            <span class="selo">Portaria GM/MS nº 12.151/2026</span>
+            <span class="selo">16 ERS como nós territoriais</span>
+            <span class="selo">Cuiabá · 2026</span>
+          </div>
+          <div class="kpis">
+            <div class="kpi">
+              <strong>142 municípios</strong>
+              <span>Cobertura estadual articulada</span>
+            </div>
+            <div class="kpi">
+              <strong>24 horas / 7 dias</strong>
+              <span>Plantão e teleconsultoria especializada</span>
+            </div>
+            <div class="kpi">
+              <strong>≈ R$ 2,8 milhões/ano*</strong>
+              <span>Potencial federal estimado (Opção II)</span>
+            </div>
+          </div>
+          <p class="fonte">Unidade proponente: CIEVS-MT. *Simulação preliminar. Não constitui receita garantida.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s2" aria-label="Por que avaliar agora">
+        <div class="slide-interno">
+          <p class="kicker">1 · Contexto</p>
+          <h2>Por que este projeto deve ser avaliado agora?</h2>
+          <p class="lead">A Portaria nº 12.151/2026 altera o lugar dos CIATox no SUS e cria instrumentos de financiamento. Não se trata apenas de um serviço físico: trata-se de organizar uma rede estadual.</p>
+          <div class="grade grade-4">
+            <article class="cartao destaque">
+              <span class="numero">1</span>
+              <h3>Estabelecimento do SUS</h3>
+              <p>Integração formal à RUE, à Vigilância em Saúde e à Assistência Farmacêutica.</p>
+            </article>
+            <article class="cartao destaque">
+              <span class="numero">2</span>
+              <h3>24 horas / 7 dias</h3>
+              <p>Plantão permanente, teleconsultoria e/ou atendimento presencial.</p>
+            </article>
+            <article class="cartao destaque">
+              <span class="numero">3</span>
+              <h3>Cobertura estadual</h3>
+              <p>A norma recomenda pelo menos um CIATox por UF e cobertura populacional total.</p>
+            </article>
+            <article class="cartao destaque">
+              <span class="numero">4</span>
+              <h3>Financiamento</h3>
+              <p>Custeio mensal, qualificação e incentivo de investimento para novos centros.</p>
+            </article>
+          </div>
+          <p class="fonte">Fonte: Portaria GM/MS nº 12.151/2026, arts. 12-A, 122, 125-A, 973-F e 973-L.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s3" aria-label="Oportunidade para Mato Grosso">
+        <div class="slide-interno">
+          <p class="kicker">2 · Ponto de partida</p>
+          <h2>O Estado já tem um CIATox. A pergunta é outra.</h2>
+          <p class="lead">O Ministério da Saúde relaciona o Centro Antiveneno de Mato Grosso (CIAVE/CIATox Cuiabá), no Hospital Municipal de Cuiabá, de gestão da Prefeitura. A questão não é “precisamos ter um CIATox?”. É se o modelo municipal cobre os 142 municípios com as novas atribuições federais.</p>
+          <div class="grade grade-4">
+            <article class="cartao"><p class="mega">142<small>municípios a cobrir</small></p></article>
+            <article class="cartao"><p class="mega">16<small>Escritórios Regionais de Saúde</small></p></article>
+            <article class="cartao"><p class="mega">24/7<small>suporte especializado</small></p></article>
+            <article class="cartao"><p class="mega">1 rede<small>CIATox + CIEVS + Lacen + RUE + AF</small></p></article>
+          </div>
+          <div class="grade grade-3">
+            <article class="cartao">CIEVS-MT</article>
+            <article class="cartao">Lacen-MT</article>
+            <article class="cartao">RUE / Regulação</article>
+            <article class="cartao">Assistência Farmacêutica</article>
+            <article class="cartao">Hospitais estaduais</article>
+            <article class="cartao">STI / dados</article>
+          </div>
+          <p class="fonte">ABRACIT registra ausência de laboratório próprio. A Portaria admite apoio diagnóstico em outro estabelecimento (Lacen-MT + referências), com tempo-resposta e custo-efetividade justificados.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s4" aria-label="Problema a resolver">
+        <div class="slide-interno">
+          <p class="kicker">3 · Evidência estadual</p>
+          <h2>A necessidade já se manifestou em 2025 e 2026</h2>
+          <p class="lead">Não é só o marco federal. Mato Grosso acumulou demanda assistencial, emergência química e uma política de agrotóxicos que a Portaria agora permite financiar e organizar como rede.</p>
+          <div class="grade grade-3">
+            <article class="cartao destaque"><h3>3.860 acidentes com animais peçonhentos (2025)</h3><p>1.930 por escorpiões e 1.066 por serpentes. Dez óbitos confirmados à época e dois em investigação (SES-MT).</p></article>
+            <article class="cartao destaque"><h3>Metanol</h3><p>Emergência em 2025. Em fevereiro de 2026, a SES informou seis casos confirmados e quatro óbitos. Resposta com CIEVS, vigilâncias, Lacen e CIATox Cuiabá.</p></article>
+            <article class="cartao destaque"><h3>VSPEA (2025)</h3><p>Plano estadual de vigilância de populações expostas a agrotóxicos: ambiental, epidemiológica, sanitária, trabalhador e atenção.</p></article>
+            <article class="cartao destaque"><h3>Acesso desigual</h3><p>Expertise concentrada na capital, em serviço de gestão municipal, para 903 mil km² e 142 municípios.</p></article>
+            <article class="cartao destaque"><h3>Antídotos e laboratório</h3><p>Estoques sem visão estadual única. CIATox Cuiabá sem laboratório próprio; Lacen pode ser a contrapartida.</p></article>
+            <article class="cartao destaque"><h3>CMS Cuiabá já apontou o gap</h3><p>Capacitação da rede estadual, Lacen como contrapartida, incentivo financeiro do Estado e integração com o ensino.</p></article>
+          </div>
+          <p class="fonte">Agregados institucionais. Fontes: SES-MT; Portaria GM/MS nº 12.151/2026. Sem dados nominais de pacientes.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s5" aria-label="Modelo em quatro níveis">
+        <div class="slide-interno">
+          <p class="kicker">4 · Modelo</p>
+          <h2>Uma rede em quatro níveis</h2>
+          <p class="lead">O CIATox-MT funciona como núcleo coordenador; os ERS territorializam a rede.</p>
+          <div class="niveis">
+            <article class="nivel">
+              <p class="faixa">Nível 1</p>
+              <h3>CIATox-MT · coordenação estadual</h3>
+              <ul><li>Teleconsultoria 24/7</li><li>Toxicologia clínica</li><li>Protocolos</li><li>Toxicovigilância</li><li>Rede de antídotos</li></ul>
+            </article>
+            <article class="nivel">
+              <p class="faixa">Nível 2</p>
+              <h3>Escritórios Regionais</h3>
+              <ul><li>Ponto focal regional</li><li>Articulação municipal</li><li>Monitoramento</li><li>Capacitação</li><li>Logística e fluxos</li></ul>
+            </article>
+            <article class="nivel">
+              <p class="faixa">Nível 3</p>
+              <h3>Referências regionais</h3>
+              <ul><li>Hospitais / UPA</li><li>SAMU e regulação</li><li>Estabilização</li><li>Antídotos estratégicos</li><li>Coleta de amostras</li></ul>
+            </article>
+            <article class="nivel">
+              <p class="faixa">Nível 4</p>
+              <h3>Municípios</h3>
+              <ul><li>Identificação precoce</li><li>Contato com o CIATox</li><li>Notificação</li><li>Fluxos assistenciais</li><li>Prevenção</li></ul>
+            </article>
+          </div>
+          <p class="fonte">Componentes transversais: CIEVS-MT · Lacen-MT · Assistência Farmacêutica · RUE/Regulação · Vigilâncias · STI/Dados. A regionalização é coerente com a Portaria, que vincula o CIATox ao PRI, ao PAR-RUE e às redes de atenção.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s6" aria-label="Papel dos ERS">
+        <div class="slide-interno">
+          <p class="kicker">5 · Regionalização</p>
+          <h2>Escritórios Regionais de Saúde: função estratégica</h2>
+          <p class="lead">Cada ERS designa um Ponto Focal Regional de Toxicologia e Toxicovigilância, conectado ao núcleo estadual. O ponto focal não substitui o especialista: articula e monitora a rede.</p>
+          <div class="grade grade-2">
+            <article class="cartao navy">
+              <h3>Resultado esperado</h3>
+              <p>O CIATox deixa de ser “um serviço em Cuiabá” e passa a operar como rede estadual territorializada.</p>
+            </article>
+            <article class="cartao">
+              <h3>Atribuições do ponto focal</h3>
+              <ul class="lista-limpa">
+                <li>Articular municípios, hospitais, SAMU e regulação</li>
+                <li>Acompanhar antídotos e soros estratégicos</li>
+                <li>Apoiar transporte e fluxo de amostras ao Lacen</li>
+                <li>Monitorar indicadores e eventos incomuns</li>
+                <li>Qualificar notificações e investigações</li>
+                <li>Mapear capacidade regional e vazios assistenciais</li>
+                <li>Coordenar educação permanente regional</li>
+              </ul>
+            </article>
+          </div>
+          <p class="fonte">Proposta organizacional estadual. A Portaria exige regionalização, mas não define o papel dos ERS. Relação dos 16 ERS na versão documento.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s7" aria-label="Governança">
+        <div class="slide-interno">
+          <p class="kicker">6 · Governança</p>
+          <h2>Integração entre assistência, vigilância, laboratório, regulação e território</h2>
+          <div class="grade grade-3">
+            <article class="cartao navy"><h3>Secretário de Estado de Saúde</h3><p>Decisão institucional e autorização da fase de estudo.</p></article>
+            <article class="cartao destaque"><h3>Comitê Gestor Estadual</h3><p>Diretrizes, pactuação, monitoramento e solução de entraves.</p></article>
+            <article class="cartao destaque"><h3>Núcleo estadual CIATox-MT</h3><p>Operação 24/7, protocolos, equipe, qualidade e articulação da rede.</p></article>
+          </div>
+          <div class="grade grade-2">
+            <article class="cartao">
+              <h3>Componentes transversais</h3>
+              <p>CIEVS-MT · Lacen-MT · Assistência Farmacêutica · RUE/Regulação · Vigilâncias · STI / ciência de dados</p>
+            </article>
+            <article class="cartao">
+              <h3>Território</h3>
+              <p>Escritórios Regionais · hospitais de referência · SAMU/UPA · secretarias municipais · pontos de antídotos · rede laboratorial</p>
+            </article>
+          </div>
+          <p class="fluxo"><span>Detectar</span><em>→</em><span>Orientar</span><em>→</em><span>Regular</span><em>→</em><span>Tratar</span><em>→</em><span>Investigar</span><em>→</em><span>Alertar</span><em>→</em><span>Aprender</span></p>
+          <p class="fonte">A Portaria atribui ao CIATox funções assistenciais, de vigilância, apoio laboratorial e gestão de antídotos.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s8" aria-label="Financiamento federal">
+        <div class="slide-interno">
+          <p class="kicker">7 · Financiamento</p>
+          <h2>Oportunidade federal para Mato Grosso</h2>
+          <p class="lead">Simulação preliminar para a faixa populacional da Opção de Custeio II (3.000.001 a 7.000.000 habitantes). Todos os 142 municípios integram a Amazônia Legal.</p>
+          <div class="grade grade-4">
+            <article class="cartao"><p class="mega">R$ 146.325,53<small>custeio-base mensal · Opção II</small></p></article>
+            <article class="cartao"><p class="mega">+ R$ 43.897,66<small>30% Amazônia Legal (sobre o custeio-base)</small></p></article>
+            <article class="cartao"><p class="mega">+ R$ 25.412,67<small>qualificação mensal do CIATox</small></p></article>
+            <article class="cartao"><p class="mega">+ R$ 17.742,78<small>até 2 médicos elegíveis</small></p></article>
+          </div>
+          <article class="cartao navy">
+            <h3>Cenário potencial estimado</h3>
+            <p><strong>R$ 233.378,64 / mês</strong> · aproximadamente <strong>R$ 2.800.543,68 / ano</strong></p>
+          </article>
+          <p class="fonte">Simulação conservadora: o adicional de 30% foi aplicado somente ao custeio-base. Recurso federal não é automático — depende de habilitação, critérios, funcionamento efetivo e disponibilidade orçamentária. Fonte: Portaria GM/MS nº 12.151/2026, Anexo CIX e arts. 973-G, 973-H e 973-K.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s9" aria-label="Contrapartida estadual">
+        <div class="slide-interno">
+          <p class="kicker">8 · Contrapartida</p>
+          <h2>Recurso federal × o que o Estado já tem × o que ainda precisa ser medido</h2>
+          <p class="lead">Custeio tripartite. O adicional de 30% da Amazônia Legal aplica-se, nesta simulação, só ao custeio-base. Nenhum valor abaixo é receita garantida.</p>
+          <table>
+            <thead>
+              <tr><th>Componente</th><th>Recurso federal potencial</th><th>Contrapartida já existente</th><th>Custo novo</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Custeio-base + Amazônia Legal</td><td>R$ 190.223,19 / mês</td><td>ERS, CIEVS, RUE, AF, hospitais, STI</td><td>Plantão, CNES e governança a quantificar</td></tr>
+              <tr><td>Qualificação</td><td>R$ 25.412,67 / mês</td><td>Lacen-MT</td><td>Gap de exames e tempo-resposta</td></tr>
+              <tr><td>Até 2 médicos elegíveis</td><td>R$ 17.742,78 / mês</td><td>Equipe do CIAVE, se aderente</td><td>Cessão ou vínculo se houver gap</td></tr>
+              <tr><td>Obra / novo prédio</td><td>Incentivo só se o estudo recomendar</td><td>Estrutura do Hospital Municipal</td><td>Não autorizar nesta etapa</td></tr>
+              <tr><td><strong>Teto de planejamento</strong></td><td><strong>≈ R$ 2,80 milhões / ano</strong></td><td><strong>Capacidade instalada</strong></td><td><strong>Principal risco: RH 24/7</strong></td></tr>
+            </tbody>
+          </table>
+          <p class="fonte">Fonte: Portaria GM/MS nº 12.151/2026, Anexo CIX e arts. 973-G, 973-H, 973-K e 973-X. Confirmar incidência dos adicionais com o Ministério da Saúde.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s10" aria-label="Cenários de implantação">
+        <div class="slide-interno">
+          <p class="kicker">9 · Três modelos</p>
+          <h2>O estudo de 60 dias compara; o Gabinete não escolhe o prédio agora</h2>
+          <p class="lead">A Portaria admite mais de um centro na UF, desde que 100% da população seja pactuada na CIB. Duplicar estrutura sem diagnóstico é o principal risco.</p>
+          <div class="grade grade-3">
+            <article class="cartao destaque">
+              <h3>1. CIATox Cuiabá fortalecido</h3>
+              <p>Município permanece gestor. Estado entra com financiamento, Lacen, vigilância e regionalização pelos ERS.</p>
+              <p>Evita duplicação. Exige governança interfederativa robusta.</p>
+            </article>
+            <article class="cartao destaque">
+              <h3>2. Cogestão / referência estadual</h3>
+              <p>O serviço atual passa a operar formalmente como referência estadual, com pactuação SES–Cuiabá.</p>
+              <p>Aproveita equipe e experiência, com participação estadual formal.</p>
+            </article>
+            <article class="cartao destaque">
+              <h3>3. Novo CIATox estadual</h3>
+              <p>Estabelecimento sob gestão direta da SES. Autonomia maior, custo e prazo maiores.</p>
+              <p>Só após demonstrar maior efetividade que o fortalecimento ou a cogestão.</p>
+            </article>
+          </div>
+          <p class="fonte">Fonte: arts. 973-A a 973-E da Portaria GM/MS nº 12.151/2026. Desenho preferencial: hub 24/7 em teleconsultoria + 16 ERS, não um segundo prédio como primeira resposta.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s11" aria-label="Vantagens para a população">
+        <div class="slide-interno">
+          <p class="kicker">10 · População</p>
+          <h2>Vantagens para a população</h2>
+          <p class="lead">O valor da rede deve ser percebido na velocidade, segurança e equidade do cuidado. Benefícios esperados; deverão ser monitorados por indicadores após a implantação.</p>
+          <div class="grade grade-3">
+            <article class="cartao"><h3>24/7</h3><p>Orientação toxicológica especializada em tempo oportuno.</p></article>
+            <article class="cartao"><h3>Equidade</h3><p>Municípios distantes acessam expertise sem depender da presença física em Cuiabá.</p></article>
+            <article class="cartao"><h3>Conduta segura</h3><p>Apoio a diagnóstico, gravidade, antídotos e necessidade de transferência.</p></article>
+            <article class="cartao"><h3>Menos deslocamentos</h3><p>Casos manejáveis localmente ou na região evitam transferências desnecessárias.</p></article>
+            <article class="cartao"><h3>Antídotos</h3><p>Maior visibilidade sobre localização, validade e disponibilidade dos estoques.</p></article>
+            <article class="cartao"><h3>Emergências</h3><p>Melhor resposta a intoxicações coletivas, químicos, agrotóxicos, metanol e animais peçonhentos.</p></article>
+          </div>
+          <p class="fonte">Indicadores previstos: cobertura municipal, tempo-resposta, resolutividade sem transferência, disponibilidade de antídotos e qualidade da notificação.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s12" aria-label="Vantagens para o Estado">
+        <div class="slide-interno">
+          <p class="kicker">11 · Estado</p>
+          <h2>Vantagens estratégicas para Mato Grosso</h2>
+          <p class="lead">O projeto pode transformar capacidades dispersas em uma política estadual integrada.</p>
+          <div class="grade grade-2">
+            <article class="cartao destaque">
+              <h3>Gestão e financiamento</h3>
+              <ul class="lista-limpa">
+                <li>Captação de novos recursos federais</li>
+                <li>Governança única para toxicologia e toxicovigilância</li>
+                <li>Fortalecimento dos Escritórios Regionais</li>
+                <li>Melhor gestão de antídotos e soros</li>
+              </ul>
+            </article>
+            <article class="cartao destaque">
+              <h3>Rede e inteligência</h3>
+              <ul class="lista-limpa">
+                <li>Uso mais racional da rede hospitalar</li>
+                <li>Fortalecimento da resposta às emergências</li>
+                <li>Produção de inteligência epidemiológica</li>
+                <li>Integração entre vigilância e assistência</li>
+              </ul>
+            </article>
+          </div>
+          <article class="cartao navy">
+            <h3>Resultado esperado</h3>
+            <p>Maior capacidade estadual de prevenir, detectar, responder e aprender com eventos toxicológicos.</p>
+          </article>
+          <p class="fonte">Síntese dos ganhos institucionais esperados do modelo integrado. Sem dados nominais de pacientes.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s13" aria-label="Produtos estruturantes">
+        <div class="slide-interno">
+          <p class="kicker">12 · Produtos</p>
+          <h2>Dois produtos estruturantes desde o início</h2>
+          <div class="grade grade-2">
+            <article class="cartao destaque">
+              <h3>Rede Estadual de Antídotos e Soros</h3>
+              <p>Visão estadual em tempo quase real de produto, quantidade, validade, localização, disponibilidade e tempo de acesso.</p>
+              <p>ERS acompanham a realidade regional; Assistência Farmacêutica coordena estoques; CIATox apoia a indicação clínica.</p>
+            </article>
+            <article class="cartao destaque">
+              <h3>Toxicovigilância integrada</h3>
+              <p class="fluxo" style="margin-top:.6rem"><span>Hospital / município</span><em>→</em><span>CIATox-MT</span><em>→</em><span>ERS</span><em>→</em><span>CIEVS-MT</span><em>→</em><span>Lacen / vigilâncias</span><em>→</em><span>Resposta</span></p>
+              <p style="margin-top:.7rem">Detectar clusters, sinais incomuns e riscos coletivos com maior oportunidade.</p>
+            </article>
+          </div>
+          <p class="fonte">A Portaria prevê Núcleo de Antídotos e Núcleo de Vigilância na composição do CIATox.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s14" aria-label="Estudo técnico em 60 dias">
+        <div class="slide-interno">
+          <p class="kicker">13 · Primeira decisão</p>
+          <h2>Estudo técnico em 60 dias</h2>
+          <p class="lead">Propõe-se iniciar com um grupo de trabalho estadual e produtos objetivos para decisão do Secretário. A aprovação desta fase não cria estabelecimento, não contrata pessoal e não assume despesa permanente.</p>
+          <div class="timeline">
+            <article class="passo"><strong>0–15 dias</strong><p>Instituir o GT · definir coordenação · solicitar dados</p></article>
+            <article class="passo"><strong>15–30 dias</strong><p>Diagnóstico do CIATox atual · diagnóstico dos ERS · mapear antídotos</p></article>
+            <article class="passo"><strong>30–45 dias</strong><p>Gap analysis da Portaria · Lacen e RH · modelos de governança</p></article>
+            <article class="passo"><strong>45–60 dias</strong><p>Estudo econômico · modelo recomendado · minuta para CIR/CIB/SAIPS</p></article>
+          </div>
+          <article class="cartao navy">
+            <h3>Entrega ao final de 60 dias</h3>
+            <p>Proposta institucional, financeira e assistencial pronta para decisão e pactuação.</p>
+          </article>
+          <p class="fonte">Prazo proposto para elaboração do Projeto Técnico e estudo de viabilidade.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s15" aria-label="Horizonte de implantação">
+        <div class="slide-interno">
+          <p class="kicker">14 · Horizonte</p>
+          <h2>Após a decisão institucional, etapas mensuráveis</h2>
+          <div class="grade grade-3">
+            <article class="cartao destaque">
+              <h3>Até 90 dias</h3>
+              <ul class="lista-limpa">
+                <li>Modelo institucional definido</li>
+                <li>Pactuações iniciadas</li>
+                <li>Mapa da rede e antídotos</li>
+                <li>Fluxos prioritários</li>
+                <li>Plano de RH e laboratório</li>
+              </ul>
+            </article>
+            <article class="cartao destaque">
+              <h3>Até 180 dias</h3>
+              <ul class="lista-limpa">
+                <li>CNES / PAR-RUE / CIB</li>
+                <li>Equipe organizada</li>
+                <li>Teleconsultoria estruturada</li>
+                <li>Integração Lacen</li>
+                <li>Capacitação regional</li>
+              </ul>
+            </article>
+            <article class="cartao destaque">
+              <h3>Até 365 dias</h3>
+              <ul class="lista-limpa">
+                <li>Cobertura estadual operacional</li>
+                <li>Monitoramento de indicadores</li>
+                <li>Painel de toxicovigilância</li>
+                <li>Rede de antídotos consolidada</li>
+                <li>Habilitação/qualificação federal</li>
+              </ul>
+            </article>
+          </div>
+          <p class="fonte">Cronograma proposto; sujeito ao modelo escolhido, às pactuações e aos requisitos federais. Monitorar acesso, tempo-resposta, antídotos, laboratório, notificações e resolutividade.</p>
+        </div>
+      </section>
+
+      <section class="slide" id="s16" aria-label="Decisão solicitada">
+        <div class="slide-interno">
+          <p class="kicker">15 · Encaminhamento</p>
+          <h2>Decisão solicitada ao Secretário de Estado de Saúde</h2>
+          <p class="lead">Autorizar o estudo. Não autorizar, nesta leva, criação de nova unidade nem obra.</p>
+          <div class="grade grade-2 decisao">
+            <article class="cartao"><h3>Projeto Técnico</h3><p>Autorizar a Rede CIATox-MT como política de cobertura estadual, não como segundo prédio.</p></article>
+            <article class="cartao"><h3>Grupo de Trabalho</h3><p>60 dias, com ERS e tratativa formal com o CIAVE / Prefeitura de Cuiabá.</p></article>
+            <article class="cartao"><h3>Estudo dos três modelos</h3><p>Fortalecimento, cogestão ou novo CIATox estadual — só depois do diagnóstico.</p></article>
+            <article class="cartao"><h3>Habilitação federal</h3><p>Preparar captação da Portaria nº 12.151/2026, sem submissão ao SAIPS antes do modelo escolhido.</p></article>
+          </div>
+          <article class="cartao navy">
+            <h3>O que não se pede agora</h3>
+            <p>Não criar estabelecimento, não contratar quadro permanente, não iniciar obra e não substituir o CIATox Cuiabá sem evidência.</p>
+          </article>
+          <p class="fonte">Nota técnica de despacho, apresentação e projeto técnico disponíveis no pacote institucional CIEVS-MT.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="rodape-app">
+      <span>SES-MT · CIEVS-MT · minuta v0.1 · 16 set. 2026</span>
+      <div class="nav-slides">
+        <button type="button" id="btn-anterior">Anterior</button>
+        <span class="contador" id="contador">1 / 16</span>
+        <div class="progresso" aria-hidden="true"><span id="barra-progresso"></span></div>
+        <button type="button" id="btn-proximo">Próximo</button>
+      </div>
+      <span>Setas do teclado · Espaço · toque</span>
+    </footer>
+  </div>
+  <script src="js/apresentacao.js"></script>
+</body>
+</html>
