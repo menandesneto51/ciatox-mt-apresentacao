@@ -1,0 +1,44 @@
+referencia:
+  norma: "Portaria GM/MS nº 12.151/2026"
+  status: "simulacao_preliminar"
+  observacao: "Valores potenciais dependem de habilitação, critérios federais, funcionamento efetivo e disponibilidade orçamentária."
+
+faixa_populacional:
+  opcao: "II"
+  minimo: 3000001
+  maximo: 7000000
+  populacao_mt_2026: 3950330
+
+componentes:
+  custeio_base:
+    mensal_brl: 146325.53
+    fonte: "Anexo CIX / Portaria GM/MS nº 12.151/2026"
+    status_validacao: "confirmar_no_processo_de_habilitacao"
+
+  adicional_amazonia_legal:
+    percentual: 30
+    base_calculo_assumida: "custeio_base"
+    mensal_estimado_brl: 43897.66
+    status_validacao: "hipotese_a_confirmar"
+    nota: "Aplicabilidade deve ser confirmada para o estabelecimento habilitado e para o componente específico."
+
+  qualificacao:
+    mensal_brl: 25412.67
+    status_validacao: "confirmar_elegibilidade"
+
+  medicos_elegiveis:
+    quantidade_simulada: 2
+    mensal_total_brl: 17742.78
+    status_validacao: "confirmar_criterios_e_equipe"
+
+cenario_planejamento:
+  mensal_brl: 233378.64
+  anual_brl: 2800543.68
+  natureza: "teto_simulado"
+  receita_garantida: false
+
+regras:
+  - "Nunca apresentar valor potencial como receita assegurada."
+  - "Toda atualização deve manter memória de cálculo."
+  - "Separar custeio, qualificação, RH e investimento."
+  - "Obra não integra a decisão da fase diagnóstica."
