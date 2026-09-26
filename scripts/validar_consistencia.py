@@ -46,11 +46,6 @@ for valor in esperados:
     if valor not in fin:
         erro(f"data/financiamento.yaml: valor esperado ausente: {valor}")
 
-for rel in htmls:
-    texto = ler(rel)
-    for attr, alvo in re.findall(r'(?:href|src)="([^"]+)"', texto):
-        pass
-
 # Valida links/recursos locais simples.
 for rel in htmls:
     texto = ler(rel)
