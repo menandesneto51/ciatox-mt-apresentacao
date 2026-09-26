@@ -1,0 +1,46 @@
+fontes:
+  - id: "MS_PORTARIA_12151_2026"
+    titulo: "Portaria GM/MS nº 12.151, de 14 de setembro de 2026"
+    instituicao: "Ministério da Saúde"
+    data: "2026-09-14"
+    tipo: "norma"
+    status: "primaria"
+    uso:
+      - "habilitação"
+      - "financiamento"
+      - "atribuições"
+      - "integração RUE/Vigilância/Assistência Farmacêutica"
+
+  - id: "IBGE_ESTIMATIVA_MT_2026"
+    titulo: "Estimativas da População 2026 — Mato Grosso"
+    instituicao: "IBGE"
+    data_referencia: "2026-07-01"
+    valor: 3950330
+    tipo: "estatistica_oficial"
+    status: "primaria"
+
+  - id: "MS_CIATox_MT"
+    titulo: "Centro de Informação e Assistência Toxicológica — Mato Grosso"
+    instituicao: "Ministério da Saúde"
+    tipo: "cadastro_institucional"
+    status: "primaria"
+    dados:
+      nome: "Centro Antiveneno de Mato Grosso — CIAVE"
+      telefone_emergencia: "0800 722 6001"
+      telefones:
+        - "(65) 3318-4872"
+        - "(65) 98407-9763"
+
+  - id: "SES_MT_ANIMAIS_PECONHENTOS_2025"
+    titulo: "Acidentes por animais peçonhentos em Mato Grosso"
+    instituicao: "SES-MT"
+    periodo: 2025
+    tipo: "epidemiologia"
+    status: "validar_na_atualizacao"
+
+  - id: "SES_MT_METANOL_2025_2026"
+    titulo: "Intoxicações por metanol em Mato Grosso"
+    instituicao: "SES-MT"
+    periodo: "2025-2026"
+    tipo: "emergencia_toxicologica"
+    status: "validar_na_atualizacao"
