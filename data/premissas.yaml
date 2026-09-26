@@ -1,0 +1,53 @@
+projeto:
+  nome: "CIATox-MT — Rede Estadual de Informação, Assistência Toxicológica e Toxicovigilância"
+  versao: "0.2.0"
+  status: "minuta_institucional"
+  ambiente_implementacao: "Cursor"
+  unidade_proponente: "CIEVS-MT"
+  uf: "MT"
+  fuso: "America/Cuiaba"
+
+territorio:
+  municipios: 142
+  escritorios_regionais_saude: 16
+  area_km2_referencia: 903208.027
+  fonte_area: "IBGE — Cidades e Estados, referência 2025"
+
+populacao:
+  valor: 3950330
+  ano: 2026
+  data_referencia: "2026-07-01"
+  fonte: "IBGE — Estimativas da População 2026"
+  faixa_custeio_proposta: "Opção II — 3.000.001 a 7.000.000 habitantes"
+
+servico_existente:
+  nome: "Centro Antiveneno de Mato Grosso — CIAVE"
+  uf: "MT"
+  municipio: "Cuiabá"
+  reconhecido_em_lista_ms: true
+  telefone_emergencia: "0800 722 6001"
+  telefone_1: "(65) 3318-4872"
+  telefone_2: "(65) 98407-9763"
+  fonte: "Ministério da Saúde — relação de CIATox"
+
+estrategia:
+  premissa_central: "Rede antes de prédio"
+  modelos_em_estudo:
+    - "Fortalecimento do CIAVE/CIATox Cuiabá"
+    - "Cogestão / referência estadual"
+    - "Novo CIATox estadual"
+  decisao_imediata:
+    autorizar_estudo_tecnico: true
+    autorizar_nova_obra: false
+    autorizar_novo_estabelecimento: false
+    substituir_servico_existente: false
+
+modelo_operacional:
+  etapas:
+    - "Detectar"
+    - "Orientar"
+    - "Regular"
+    - "Tratar"
+    - "Investigar"
+    - "Alertar"
+    - "Aprender"
