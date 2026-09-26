@@ -1,0 +1,23 @@
+name: Validar CIATox-MT
+
+on:
+  push:
+    branches:
+      - main
+      - v0.2-institucional
+  pull_request:
+
+jobs:
+  consistencia:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Validar consistência
+        run: python scripts/validar_consistencia.py
