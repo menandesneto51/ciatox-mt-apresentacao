@@ -1,0 +1,61 @@
+fontes:
+  - id: "portaria_12151_2026"
+    tipo: "normativa"
+    titulo: "Portaria GM/MS nº 12.151, de 14 de setembro de 2026"
+    uso:
+      - "habilitação"
+      - "qualificação"
+      - "financiamento"
+      - "monitoramento"
+      - "CIATox"
+    data_consulta: "2026-09-26"
+
+  - id: "lei_8080_1990"
+    tipo: "normativa"
+    titulo: "Lei nº 8.080, de 19 de setembro de 1990"
+    url: "https://www.planalto.gov.br/ccivil_03/leis/l8080.htm"
+    data_consulta: "2026-09-26"
+
+  - id: "decreto_7508_2011"
+    tipo: "normativa"
+    titulo: "Decreto nº 7.508, de 28 de junho de 2011"
+    url: "https://www.planalto.gov.br/ccivil_03/_ato2011-2014/2011/decreto/d7508.htm"
+    data_consulta: "2026-09-26"
+
+  - id: "rdc_19_2005"
+    tipo: "normativa"
+    titulo: "RDC Anvisa nº 19, de 3 de fevereiro de 2005"
+    url: "https://bvsms.saude.gov.br/bvs/saudelegis/anvisa/2005/rdc0019_03_02_2005.html"
+    data_consulta: "2026-09-26"
+
+  - id: "pc_3_2017"
+    tipo: "normativa"
+    titulo: "Portaria de Consolidação GM/MS nº 3, de 28 de setembro de 2017"
+    url: "https://bvsms.saude.gov.br/bvs/saudelegis/gm/2017/prc0003_03_10_2017_comp.html"
+    data_consulta: "2026-09-26"
+
+  - id: "pnvs_588_2018"
+    tipo: "normativa"
+    titulo: "Resolução CNS nº 588, de 12 de julho de 2018"
+    url: "https://www.gov.br/conselho-nacional-de-saude/pt-br/atos-normativos/resolucoes/2018/resolucao-no-588.pdf/view"
+    data_consulta: "2026-09-26"
+
+  - id: "lgpd_13709"
+    tipo: "normativa"
+    titulo: "Lei nº 13.709, de 14 de agosto de 2018"
+    url: "https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709compilado.htm"
+    data_consulta: "2026-09-26"
+
+  - id: "ibge_mt_2026"
+    tipo: "demografica"
+    titulo: "IBGE — Mato Grosso — população estimada 2026"
+    url: "https://www.ibge.gov.br/cidades-e-estados/mt.html"
+    valor: 3950330
+    data_referencia: "2026-07-01"
+    data_consulta: "2026-09-26"
+
+  - id: "ms_ciatox_mt"
+    tipo: "institucional"
+    titulo: "Ministério da Saúde — CIATox Mato Grosso"
+    url: "https://www.gov.br/saude/pt-br/assuntos/saude-de-a-a-z/a/animais-peconhentos/ciatox/mato-grosso-mt"
+    data_consulta: "2026-09-26"

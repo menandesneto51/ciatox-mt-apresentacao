@@ -1,0 +1,50 @@
+projeto:
+  nome: "Rede Estadual de Informação, Assistência Toxicológica e Toxicovigilância — CIATox-MT"
+  versao: "0.2"
+  status: "MINUTA PARA VALIDAÇÃO"
+  data_referencia: "2026-09-26"
+  unidade_proponente: "CIEVS-MT / SES-MT"
+
+territorio:
+  uf: "MT"
+  municipios: 142
+  ers: 16
+  populacao:
+    valor: 3950330
+    ano: 2026
+    data_referencia: "2026-07-01"
+    fonte: "IBGE"
+
+financiamento:
+  opcao_custeio: "II"
+  custeio_base_mensal: 146325.53
+  adicional_amazonia_legal_percentual: 30
+  qualificacao_mensal: 25412.67
+  adicional_medico_unitario_mensal: 8871.39
+  max_medicos_opcao_ii: 2
+  cenario_simulado_mensal: 233378.64
+  cenario_simulado_anual: 2800543.68
+  ressalva: "Valores potenciais, condicionados à habilitação, critérios federais, enquadramento administrativo e disponibilidade orçamentária."
+
+servico_existente:
+  nome: "Centro Antiveneno de Mato Grosso — CIAVE"
+  municipio: "Cuiabá"
+  reconhecido_ministerio_saude: true
+  telefone_emergencia: "0800-722-6001"
+  situacao_a_validar:
+    - "CNES"
+    - "governança"
+    - "equipe"
+    - "escala 24/7"
+    - "produção"
+    - "suporte laboratorial"
+    - "cobertura estadual"
+    - "protocolos"
+    - "antídotos"
+
+decisao_atual:
+  autorizar_estudo_60_dias: true
+  criar_novo_estabelecimento: false
+  autorizar_obra: false
+  autorizar_despesa_permanente: false
+  substituir_ciave_existente: false
