@@ -1,0 +1,39 @@
+---
+description: Regras obrigatórias para evolução do CIATox-MT
+alwaysApply: true
+---
+
+# CIATox-MT — regra de projeto
+
+Antes de qualquer alteração relevante, leia:
+- README.md
+- data/premissas.yaml
+- data/financiamento.yaml
+- data/fontes.yaml
+- docs/CURSOR.md
+- docs/REQUISITOS_PORTARIA_12151.md
+- docs/GAP_ANALYSIS.md
+- docs/ROADMAP.md
+
+## Princípios
+- Rede antes de prédio.
+- Não tratar potencial de financiamento como receita garantida.
+- Separar fato confirmado, premissa de planejamento, proposta estadual e item a validar.
+- Não duplicar números estratégicos em múltiplos arquivos sem atualizar a fonte única.
+- Manter rastreabilidade de fontes e datas.
+- Não incluir segredos ou dados pessoais.
+- Preservar compatibilidade da apresentação web e dos documentos institucionais.
+
+## Validação multiagente
+Toda mudança relevante deve ser revista pelos papéis:
+1. Arquitetura
+2. Epidemiologia/Toxicovigilância
+3. Normativo
+4. Financeiro
+5. Dados
+6. Segurança/LGPD
+7. QA
+8. Executivo
+
+## Critério de pronto
+A mudança precisa estar coerente com a Portaria GM/MS nº 12.151/2026, com números reconciliados, fontes registradas, changelog atualizado e sem regressões visuais ou funcionais.
