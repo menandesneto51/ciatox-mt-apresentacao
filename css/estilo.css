@@ -228,6 +228,7 @@ body.documento { background: var(--sand); height: auto; }
 .pagina .botao { margin: .25rem .4rem .25rem 0; }
 .pagina table { font-size: .84rem; margin: 1rem 0; }
 .pagina .cartao.navy p { margin: 0; color: #fff; }
+.pagina .cartao.navy h2, .pagina .cartao.navy ol, .pagina .cartao.navy li { color: #fff; }
 .rodape-doc { background: var(--navy); color: #fff; padding: 1rem 1.1rem; font-size: .82rem; }
 .ers { display: grid; grid-template-columns: 1fr 1fr; gap: .35rem .7rem; font-size: .9rem; }
 .ers li { list-style: none; }
